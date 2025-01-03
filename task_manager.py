@@ -70,6 +70,7 @@ def task_summary():
     total_tasks = len(tasks)
     completed_tasks = sum(1 for task in tasks if task["completed"])
     pending_tasks = total_tasks - completed_tasks
+    print("Update summary 2")
     print(f"Total Tasks: {total_tasks}, Completed: {completed_tasks}, Pending: {pending_tasks}")
 
 
