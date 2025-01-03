@@ -10,4 +10,9 @@ def view_tasks():
 
 
 
+def add_task(name, priority, due_date):
+    tasks.append({"name": name, "priority": priority, "due_date": due_date, "completed": False})
+    print(f"Task '{name}' added successfully!")
+
+
 
